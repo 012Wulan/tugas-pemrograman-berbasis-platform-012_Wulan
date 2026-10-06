@@ -19,3 +19,9 @@ Jadi masalah utamanya berasal dari proses atau kondisi di sisi server, bukan sek
 4. Apakah semua error HTTP berarti server mengalami kerusakan?
 Tidak. Tidak semua error HTTP berarti server rusak. Beberapa status error terjadi karena request dari client bermasalah, 
 misalnya 400, atau karena resource tidak ditemukan seperti 404. Status 500 baru menunjukkan adanya masalah pada sisi server.
+
+
+## Tabel Hasil Pengujian 
+|Status Code|Arti|Hasil Pengujian|Kapan Digunakan|
+|---:|---|---|---:|---|
+|200|Berhasil|Request berhasil diproses oleh server|Saat request berhasil dan data dapat diberikan|
