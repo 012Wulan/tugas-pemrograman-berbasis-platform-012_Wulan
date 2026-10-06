@@ -12,4 +12,4 @@
 | 8. | GET /api/v1/alamat-salah | 404, follback route | 404 Not Found, status false, route GET /api/v1/alamat-salah tidak ditemukan | 
 
 
-## Screenshoot
+## Screenshot
