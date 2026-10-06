@@ -1,4 +1,7 @@
 ## Tugas Mandiri 3 -  Memahami Request dan Response
+### Tujuan :
+Memahami konsep request dan response serta mengetahui fungsi query parameter dan HTTP header dalam komunikasi antara client dan server.
+
 
 1. Apa yang dimaksud request?
 Request adalah permintaan yang dikirim oleh client kepada server untuk meminta atau mengirim suatu informasi. contohnya:
