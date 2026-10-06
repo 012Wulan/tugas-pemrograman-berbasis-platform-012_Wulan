@@ -22,6 +22,12 @@ misalnya 400, atau karena resource tidak ditemukan seperti 404. Status 500 baru 
 
 
 ## Tabel Hasil Pengujian 
-|Status Code|Arti|Hasil Pengujian|Kapan Digunakan|
-|---:|---|---|---:|---|
-|200|Berhasil|Request berhasil diproses oleh server|Saat request berhasil dan data dapat diberikan|
+| Status Code | Arti | Hasil Pengujian | Kapan Digunakan |
+|---|---|---|---|
+| 200 | Berhasil | Request berhasil diproses oleh server | Saat request berhasil dan data dapat diberikan |
+| 201 | Created | Request berhasil dan data/resource berhasil dibuat | Saat membuat data baru |
+| 400 | Bad Request | Request yang dikirim tidak valid | Saat data/request dari client salah |
+| 401 | Unauthorized | Client belum melakukan autentikasi yang diperlukan | Saat akses membutuhkan login/token tetapi belum diberikan |
+| 403 | Forbidden | Server memahami request tetapi menolak akses | Saat user tidak memiliki izin mengakses resource |
+| 404 | Not Found | Resource atau endpoint yang diminta tidak ditemukan | Saat URL/resource tidak tersedia |
+| 500 | Internal Server Error | Terjadi kesalahan pada sisi server | Saat server mengalami error saat memproses request |
