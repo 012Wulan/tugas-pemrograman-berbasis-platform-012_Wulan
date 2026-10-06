@@ -31,3 +31,14 @@ misalnya 400, atau karena resource tidak ditemukan seperti 404. Status 500 baru 
 | 403 | Forbidden | Server memahami request tetapi menolak akses | Saat user tidak memiliki izin mengakses resource |
 | 404 | Not Found | Resource atau endpoint yang diminta tidak ditemukan | Saat URL/resource tidak tersedia |
 | 500 | Internal Server Error | Terjadi kesalahan pada sisi server | Saat server mengalami error saat memproses request |
+
+
+## Screenshot Pengujian 
+### Status Code 200
+![hasil pengujian get](screnshoot/TM2-1.png)
+
+### Status Code 201 
+![hasil pengujian get](screnshoot/TM2-2.png)
+
+### Status Code 400
+![hasil pengujian get](screnshoot/TM2-3.png)
