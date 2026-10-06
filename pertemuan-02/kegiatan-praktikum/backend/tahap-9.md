@@ -14,7 +14,7 @@
 
 ## Screenshot
 ### GET /api/v1 
-![hasil pengujian](screnshoot/TAHAP-9-1.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-1.png)
 
 ### GET /api/v1/jadwal?status=aktif
 ![Hasil Pengujian](./screenshot/TAHAP-9-2.png)
