@@ -7,3 +7,14 @@ bersih, sedangkan `-i` digunakan ketika ingin melihat informasi header dari resp
 sesuai informasi yang ingin diperiksa dari hasil request.
 
 ## Screenshot Pengujian
+### POSTMAN GET
+![hasil pengujian get](screnshoot/TM4-POSTMAN-GET.png)
+
+### POSTMAN POST
+![hasil pengujian get](screnshoot/TM4-POSTMAN-POST.png)
+
+### CURL-I
+![hasil pengujian get](screnshoot/TM4-CURL-I.png)
+
+### CURL-S
+![hasil pengujian get](screnshoot/TM4-CURL-S.png)
