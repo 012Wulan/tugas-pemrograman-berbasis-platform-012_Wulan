@@ -13,3 +13,8 @@
 
 
 ## Screenshot
+### GET /api/v1 
+![hasil pengujian](../screenshot/TAHAP 9-1.png)
+
+### GET /api/v1/jadwal?status=aktif
+![hasil pengujian](../screenshot/TAHAP 9-2.png)
