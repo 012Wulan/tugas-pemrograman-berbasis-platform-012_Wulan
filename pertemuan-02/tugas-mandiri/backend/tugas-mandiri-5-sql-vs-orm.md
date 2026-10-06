@@ -1,4 +1,6 @@
 ## Tugas Mandiri 5 - Membandingkan SQL Mentah dan ORM
+### Tujuan : 
+Memahami perbedaan penggunaan SQL mentah dan ORM dalam mengakses database serta mengetahui kelebihan, kekurangan, dan keamanan dari kedua pendekatan tersebut.
 
 B. SQL Mentah
 Dengan menggunakan SQL secara langsung, query yang digunakan adalah:
