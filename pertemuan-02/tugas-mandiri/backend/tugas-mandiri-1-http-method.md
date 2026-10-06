@@ -1,4 +1,7 @@
 # Tugas Mandiri 1 — Mengenal HTTP Method dan Endpoint
+### Tujuan :
+Memahami penggunaan HTTP method dan endpoint serta mengetahui bagaimana client mengirim request dan menerima response dari server.
+
 
 ## 1. GET
 URL: https://httpbin.org/get?nama=Wulan&prodi=Informatika
