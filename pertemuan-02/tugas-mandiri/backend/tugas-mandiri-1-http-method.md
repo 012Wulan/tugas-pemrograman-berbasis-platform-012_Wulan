@@ -48,7 +48,7 @@ Hasil: Request DELETE berhasil diterima
 
 ## Screenshot Pengujian
 ### GET 
-![hasil pengujian get](screnshoot/TM1-GET.JPEG)
+![hasil pengujian get](screnshoot/TM1-GET.jpeg)
 
 
 ### POST
