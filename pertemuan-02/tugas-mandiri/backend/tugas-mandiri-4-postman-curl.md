@@ -1,4 +1,7 @@
 ## Tugas Mandiri 4 - Pengujian API dengan Postman dan curl
+### Tujuan :
+Mempelajari cara melakukan pengujian API menggunakan Postman dan curl serta memahami perbedaan informasi yang ditampilkan oleh masing-masing alat.
+
 
 Perintah `curl -s` hanya menampilkan response body sehingga hasilnya lebih 
 sederhana dan tidak menampilkan informasi tambahan dari proses curl. Sedangkan `curl -i` menampilkan HTTP response header seperti status code,
