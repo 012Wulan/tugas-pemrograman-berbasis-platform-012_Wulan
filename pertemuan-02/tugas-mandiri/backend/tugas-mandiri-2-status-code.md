@@ -1,4 +1,7 @@
 ## Tugas Mandiri 2 - Memahami HTTP Status Code
+### Tujuan :
+Memahami arti dari berbagai HTTP status code dan mengetahui kondisi yang menyebabkan server memberikan status code tertentu.
+
 
 1. Apa perbedaan 400 dan 404?
 400 berarti request yang dikirim oleh client tidak valid atau salah. 
