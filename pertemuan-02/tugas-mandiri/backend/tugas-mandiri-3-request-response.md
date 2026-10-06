@@ -42,7 +42,7 @@ contoh body:
 
 ## Screenshot Pengujian 
 ### GET 
-![hasil pengujian get](screnshoot/TM3-GET.png)
+![hasil pengujian](screnshoot/TM3-GET.png)
 
 ### HEADER
-![hasil pengujian get](screnshoot/TM3-HEADER.png)
+![hasil pengujian](screnshoot/TM3-HEADER.png)
