@@ -44,13 +44,15 @@ Hasil: Request DELETE berhasil diterima
 |No.|Method|Endpoint|Data yang dikirim|Status|Hasil|
 |---:|---|---|---|---:|---|
 |1.|GET|'/get'|Query parameter|200|Data query berhasil diterima server|
-|2.|POST|'/post'|JSON nama dan prodi|
+|2.|POST|'/post'|JSON nama dan prodi|200|Data JSON berhasil diterima|
+|3.|PUT|'/put'|JSON nama, prodi, semester|200|Data berhasil diterima|
+|4.|PATCH|'/patch'|JSON semester|200|Data perubahan berhasil diterima|
+|5.|DELETE|'/delete'|Tidak ada|200|Request DELETE berhasil diterima|
 
 ## Screenshot Pengujian
 ### GET 
 ![hasil pengujian get](screnshoot/TM1-GET.jpeg)
 
-
 ### POST
-hasil pengujian post
-(https://github.com/012Wulan/tugas-pemrograman-berbasis-platform-012_Wulan/blob/main/pertemuan-02/tugas-mandiri/backend/screnshoot/TM1-POST.jpeg)
+![hasil pengujian post](screnshoot/TM1-POST.jpeg
+
