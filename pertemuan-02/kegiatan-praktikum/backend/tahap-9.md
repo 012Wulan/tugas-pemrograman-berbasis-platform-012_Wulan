@@ -14,7 +14,7 @@
 
 ## Screenshot
 ### GET /api/v1 
-![Hasil Pengujian](./screenshot/TAHAP-9-1.png)
+![Hasil Pengujian](https://github.com/tugas-pemrograman-berbasis-platform-012_Wulan/blob/main/pertemuan-02/kegiatan-praktikum/screenshot/TAHAP-9-1.png)
 
 ### GET /api/v1/jadwal?status=aktif
 ![Hasil Pengujian](./screenshot/TAHAP-9-2.png)
