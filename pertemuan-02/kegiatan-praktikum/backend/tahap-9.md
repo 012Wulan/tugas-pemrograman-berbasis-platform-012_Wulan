@@ -18,3 +18,6 @@
 
 ### GET /api/v1/jadwal?status=aktif
 ![hasil pengujian](../screenshot/TAHAP 9-2.png)
+
+### GET /api/v1/jadwal/abc
+![hasil pengujian](../screenshot/TAHAP 9-3.png)
