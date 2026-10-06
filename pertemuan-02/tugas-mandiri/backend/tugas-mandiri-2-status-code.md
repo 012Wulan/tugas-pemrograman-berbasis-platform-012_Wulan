@@ -38,10 +38,10 @@ misalnya 400, atau karena resource tidak ditemukan seperti 404. Status 500 baru 
 
 ## Screenshot Pengujian 
 ### Status Code 200
-![hasil pengujian get](screnshoot/TM2-1.png)
+![hasil pengujian](screnshoot/TM2-1.png)
 
 ### Status Code 201 
-![hasil pengujian get](screnshoot/TM2-2.png)
+![hasil pengujian](screnshoot/TM2-2.png)
 
 ### Status Code 400
-![hasil pengujian get](screnshoot/TM2-3.png)
+![hasil pengujian](screnshoot/TM2-3.png)
