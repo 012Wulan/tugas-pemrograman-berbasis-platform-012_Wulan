@@ -14,25 +14,25 @@
 
 ## Screenshot
 ### GET /api/v1 
-![Hasil Pengujian](./screenshot/TAHAP%209-1.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-1.png)
 
 ### GET /api/v1/jadwal?status=aktif
-![Hasil Pengujian](./screenshot/TAHAP%209-2.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-2.png)
 
 ### GET /api/v1/jadwal/abc
-![Hasil Pengujian](./screenshot/TAHAP%209-3.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-3.png)
 
 ### GET /api/v1/jadwal/99
-![Hasil Pengujian](./screenshot/TAHAP%209-4.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-4.png)
 
 ### POST /api/v1/jadwal dengan body valid
-![Hasil Pengujian](./screenshot/TAHAP%209-5.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-5.png)
 
 ### GET /api/v1/jadwal/1/peserta
-![Hasil Pengujian](./screenshot/TAHAP%209-6.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-6.png)
 
 ### GET /api/v1/jadwal/1/peserta/103
-![Hasil Pengujian](./screenshot/TAHAP%209-7.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-7.png)
 
 ### GET /api/v1/alamat-salah
-![Hasil Pengujian](./screenshot/TAHAP%209-8.png)
+![Hasil Pengujian](./screenshot/TAHAP-9-8.png)
