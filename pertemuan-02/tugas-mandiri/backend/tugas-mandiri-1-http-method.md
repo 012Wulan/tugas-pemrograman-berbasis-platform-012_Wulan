@@ -47,10 +47,10 @@ Hasil: Request DELETE berhasil diterima
 |2.|POST|'/post'|JSON nama dan prodi|
 
 ## Screenshot Pengujian
-# GET 
-hasil pengujian get
-(https://github.com/012Wulan/tugas-pemrograman-berbasis-platform-012_Wulan/blob/main/pertemuan-02/tugas-mandiri/backend/screnshoot/TM1-GET.jpeg)
+### GET 
+![hasil pengujian get](screenshot/TM1-GET.JPEG)
 
-# POST
+
+### POST
 hasil pengujian post
 (https://github.com/012Wulan/tugas-pemrograman-berbasis-platform-012_Wulan/blob/main/pertemuan-02/tugas-mandiri/backend/screnshoot/TM1-POST.jpeg)
