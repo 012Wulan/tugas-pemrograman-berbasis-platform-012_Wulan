@@ -2,7 +2,7 @@
 ### Tujuan : 
 Memahami perbedaan penggunaan SQL mentah dan ORM dalam mengakses database serta mengetahui kelebihan, kekurangan, dan keamanan dari kedua pendekatan tersebut.
 
-B. SQL Mentah
+A. SQL Mentah
 Dengan menggunakan SQL secara langsung, query yang digunakan adalah:
 SELECT * FROM jadwal WHERE id = ?;
 Jika menggunakan Node.js dengan library mysql2 
@@ -13,7 +13,7 @@ const [rows] = await connection.execute(
 );
 Query tersebut digunakan untuk mengambil data pada tabel jadwal yang memiliki ID 1.
 
-C. ORM 
+B. ORM 
 Operasi yang sama dapat dilakukan menggunakan ORM
 Prisma:
 const jadwal = await prisma.jadwal.findUnique({
@@ -24,7 +24,7 @@ const jadwal = await prisma.jadwal.findUnique({
 Dengan Prisma, programmer tidak perlu menulis query SQL secara langsung untuk operasi tersebut. Prisma 
 akan menerjemahkan perintah tersebut menjadi query yang dapat dijalankan oleh database.
 
-D. perbandingan SQL mentah dan ORM
+C. perbandingan SQL mentah dan ORM
 1. Apa perbedaan SQL mentah dan ORM?
 SQL mentah menggunakan perintah SQL secara langsung untuk berkomunikasi dengan database. Sedangkan ORM 
 menggunakan object dan method dari library pemrograman untuk mengakses database tanpa harus 
