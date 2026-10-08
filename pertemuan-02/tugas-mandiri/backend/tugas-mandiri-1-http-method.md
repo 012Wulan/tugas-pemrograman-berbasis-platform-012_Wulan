@@ -24,7 +24,7 @@ Data:
 {
   "nama": "Wulan",
   "prodi": "Informatika",
-  "semester": 4
+  "semester": 5
 }
 Status: 200 OK
 Hasil: Data berhasil diterima
@@ -33,7 +33,7 @@ Hasil: Data berhasil diterima
 URL: https://httpbin.org/patch
 Data:
 {
-  "semester": 4
+  "semester": 5
 }
 Status: 200 OK
 Hasil: Data perubahan berhasil diterima
