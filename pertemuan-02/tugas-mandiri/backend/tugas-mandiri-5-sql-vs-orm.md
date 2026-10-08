@@ -31,7 +31,7 @@ tanpa penanganan yang aman. Hal ini dapat menyebabkan penyerang memanipulasi que
 mengakses atau mengubah data yang seharusnya tidak boleh diakses.
 
 5. Mengapa penggunaan parameter query dapat mengurangi risiko SQL injection?
-Parameter query memisahkan data yang diberikan pengguna dari perintah SQL. Dengan begitu, input 
+Karena Parameter query memisahkan data yang diberikan pengguna dari perintah SQL. Dengan begitu, input 
 pengguna diperlakukan sebagai data dan tidak dianggap sebagai bagian dari perintah SQL.
 
 6. Bagaimana ORM membantu programmer dalam mengakses database?
