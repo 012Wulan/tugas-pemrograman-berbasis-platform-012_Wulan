@@ -11,6 +11,7 @@ CSS buatan sendiri.
 
 ### 2. Class Utility yang Digunakan
 | Bagian | Class Utility | Fungsi |
+| --- | --- | --- |
 | Navbar | flex items-center justify-between gap-3 | Mengatur posisi judul dan menu agar berada dalam satu baris serta memberikan jarak |
 | Navbar Responsif | md:px-10 md:gap-6 | Menambah padding dan jarak antarmenu pada layar yang lebih lebar |
 | Hero | flex flex-col items-center gap-4 | Menyusun isi bagian pembuka secara vertikal dan memberikan jarak antar elemen |
