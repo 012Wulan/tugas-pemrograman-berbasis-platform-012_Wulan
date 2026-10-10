@@ -40,3 +40,14 @@ sebaiknya mempertimbangkan kecepatan pengerjaan, konsistensi desain, dan kemudah
 selanjutnya.
 
 ## Bukti Sreenshot
+### A. Component - Laptop
+![hasil pengujian](screenshot/TM1-COMPONENT-LAPTOP.png)
+
+### B. Componet - 360px
+![hasil pengujian](screenshot/TM1-COMPONENT-360PX.png)
+
+### C. Utility - Laptop
+![hasil pengujian](screenshot/TM1-UTILITY-LAPTOP.png)
+
+### D. Utility - 360px
+![hasil pengujian](screenshot/TM1-UTILITY-360PX.png)
