@@ -38,3 +38,5 @@ berfokus pada penggunaan class dan aturan CSS yang dibuat sendiri, sedangkan uti
 mengandalkan class siap pakai. Dari tugas ini, saya dapat memahami bahwa pemilihan pendekatan 
 sebaiknya mempertimbangkan kecepatan pengerjaan, konsistensi desain, dan kemudahan pengembangan 
 selanjutnya.
+
+## Bukti Sreenshot
