@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 text-gray-800">
 
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between gap-4 bg-blue-600 px-5 py-4 text-white md:px-10">
+        <h1 class="text-lg font-bold md:text-xl">Profil Mahasiswa</h1>
+        <div class="flex gap-3 text-sm md:gap-6 md:text-base">
+            <a href="#beranda" class="hover:text-yellow-300">Beranda</a>
+            <a href="#profil" class="hover:text-yellow-300">Profil</a>
+            <a href="#kontak" class="hover:text-yellow-300">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="beranda" class="flex flex-col items-center gap-4 px-5 py-12 text-center md:flex-row md:justify-center md:gap-10 md:py-20">
+        <div class="max-w-xl">
+            <h2 class="mb-4 text-3xl font-bold text-blue-700 md:text-5xl">
+                Selamat Datang!
+            </h2>
+            <p class="text-base leading-relaxed text-gray-600 md:text-lg">
+                Halo, saya mahasiswa Informatika yang sedang belajar
+                pengembangan web. Halaman ini dibuat untuk mempelajari
+                penggunaan class utility dalam mengatur tata letak.
+            </p>
+            <a href="#profil" class="mt-6 inline-block rounded-lg bg-blue-600 px-6 py-3 text-white hover:bg-blue-800">
+                Lihat Profil
+            </a>
+        </div>
+    </section>
+
+    <!-- Kartu Konten -->
+    <section id="profil" class="px-5 py-10 md:px-10">
+        <h2 class="mb-8 text-center text-2xl font-bold md:text-3xl">
+            Informasi Mahasiswa
+        </h2>
+
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+            <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+                <h3 class="mb-3 text-xl font-bold text-blue-700">Biodata</h3>
+                <p class="leading-relaxed text-gray-600">
+                    Berisi informasi singkat mengenai identitas dan
+                    program studi mahasiswa.
+                </p>
+            </div>
+
+            <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+                <h3 class="mb-3 text-xl font-bold text-blue-700">Jadwal Kuliah</h3>
+                <p class="leading-relaxed text-gray-600">
+                    Berisi informasi mata kuliah dan kegiatan
+                    perkuliahan yang sedang diikuti.
+                </p>
+            </div>
+
+            <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+                <h3 class="mb-3 text-xl font-bold text-blue-700">Kegiatan</h3>
+                <p class="leading-relaxed text-gray-600">
+                    Berisi kegiatan akademik dan pengalaman
+                    selama menjadi mahasiswa.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="mt-10 bg-blue-600 px-5 py-6 text-center text-white">
+        <p>Profil Mahasiswa | Dibuat tahun 2026</p>
+    </footer>
+
+</body>
+</html>
