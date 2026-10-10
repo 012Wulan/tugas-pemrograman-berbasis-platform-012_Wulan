@@ -14,11 +14,12 @@
             margin: 0;
             padding: 24px;
             font-family: Arial, sans-serif;
-            background: #f3f4f6;
-            color: #1f2937;
+            background: #fff0f5;
+            color: #831843;
         }
 
         .container {
+            width: 100%;
             max-width: 400px;
             margin: 30px auto;
         }
@@ -27,9 +28,9 @@
             padding: 24px;
             text-align: center;
             background: white;
-            border: 1px solid #e5e7eb;
+            border: 1px solid #fbcfe8;
             border-radius: 16px;
-            box-shadow: 0 4px 12px #00000012;
+            box-shadow: 0 4px 12px #ec489926;
         }
 
         .card-photo {
@@ -37,17 +38,19 @@
             height: 110px;
             object-fit: cover;
             border-radius: 50%;
-            border: 3px solid #dbeafe;
+            border: 3px solid #f9a8d4;
         }
 
         .card-name {
             margin: 16px 0 8px;
             font-size: 24px;
+            overflow-wrap: anywhere;
+            color: #be185d;
         }
 
         .card-nim {
             margin-bottom: 20px;
-            color: #6b7280;
+            color: #9d6680;
         }
 
         .btn {
@@ -55,14 +58,14 @@
             padding: 12px 20px;
             border: none;
             border-radius: 8px;
-            background: #2563eb;
+            background: #ec4899;
             color: white;
             text-decoration: none;
             cursor: pointer;
         }
 
         .btn:hover {
-            background: #1d4ed8;
+            background: #be185d;
         }
 
         @media (max-width: 400px) {
@@ -73,6 +76,10 @@
             .card {
                 padding: 20px;
             }
+
+            .card-name {
+                font-size: 22px;
+            }
         }
     </style>
 </head>
@@ -81,12 +88,12 @@
         <article class="card">
             <img
                 class="card-photo"
-                src="https://i.pravatar.cc/300?img=47"
+                src="wu.jpg"
                 alt="Foto profil Septiana Wulandari"
             >
 
             <h1 class="card-name">Septiana Wulandari</h1>
-            <p class="card-nim">NIM: 2026001</p>
+            <p class="card-nim">NIM: 2024520012</p>
 
             <a class="btn" href="#profil">Lihat Profil</a>
         </article>
