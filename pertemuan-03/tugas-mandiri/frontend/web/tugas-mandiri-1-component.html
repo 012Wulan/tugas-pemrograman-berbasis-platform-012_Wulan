@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Profil - Component Based</title>
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+            color: #1f2937;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        .card {
+            padding: 24px;
+            text-align: center;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        .card-photo {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #dbeafe;
+        }
+
+        .card-name {
+            margin: 16px 0 8px;
+            font-size: 24px;
+        }
+
+        .card-nim {
+            margin-bottom: 20px;
+            color: #6b7280;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        @media (max-width: 400px) {
+            body {
+                padding: 16px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <article class="card">
+            <img
+                class="card-photo"
+                src="https://i.pravatar.cc/300?img=47"
+                alt="Foto profil Septiana Wulandari"
+            >
+
+            <h1 class="card-name">Septiana Wulandari</h1>
+            <p class="card-nim">NIM: 2026001</p>
+
+            <a class="btn" href="#profil">Lihat Profil</a>
+        </article>
+    </main>
+</body>
+</html>
