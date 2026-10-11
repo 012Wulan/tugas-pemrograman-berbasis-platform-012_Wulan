@@ -18,21 +18,24 @@ secara langsung pada elemen HTML.
 
 ### 3. Hasil Pengamatan
 Menurut hasil percobaan saya, pendekatan component-based membuat kode CSS lebih teratur karena 
-aturan tampilan dikumpulkan dalam class tertentu. Jika ingin mengubah desain beberapa kartu 
-sekaligus, saya cukup mengubah aturan CSS yang digunakan bersama. Pada pendekatan utility-first, 
-saya dapat mengatur jarak, warna, ukuran, dan bentuk elemen langsung melalui class pada HTML. Cara 
-ini cukup praktis untuk membuat tampilan dengan cepat, tetapi nama class pada elemen bisa menjadi 
-panjang. Waktu pengerjaan kedua versi akan saya bandingkan berdasarkan waktu yang benar-benar saya 
-gunakan saat membuat dan mengubah tampilan halaman.
+aturan tampilan dikumpulkan dalam class tertentu. Ketika ingin mengubah tema kartu, saya cukup 
+mengubah aturan CSS pada class yang digunakan bersama. Sementara itu, pendekatan utility-first 
+memudahkan saya mengatur warna, jarak, ukuran, dan bentuk elemen secara langsung melalui class pada 
+HTML. Namun, jumlah class yang digunakan bisa membuat kode HTML terlihat lebih panjang.
+Dari segi waktu pengerjaan, versi utility-first dapat dibuat lebih cepat karena saya tidak perlu 
+menulis aturan CSS dari awal. Sebaliknya, versi component-based membutuhkan waktu untuk menyusun 
+aturan CSS terlebih dahulu, tetapi lebih mudah dikelola ketika tampilan yang sama digunakan pada 
+beberapa komponen. Dengan demikian, kedua pendekatan memiliki kelebihan masing-masing, baik dari 
+segi waktu pengerjaan maupun kemudahan perubahan tema.
 
-## 4. Pilihan Untuk Proyek Akhir
+### 4. Pilihan Untuk Proyek Akhir
 Untuk halaman yang mempunyai banyak komponen dengan desain seragam, saya memilih component-based 
 karena aturan CSS dapat digunakan kembali dan lebih mudah dikelola. Untuk halaman yang membutuhkan 
 penyusunan tampilan dengan cepat, saya memilih utility-first karena pengaturan tampilan dapat 
 dilakukan langsung pada elemen HTML. Pilihan tersebut tetap disesuaikan dengan kebutuhan halaman 
 dan kemudahan pemeliharaan kode.
 
-## 5. Kesimpulan 
+### 5. Kesimpulan 
 Kedua pendekatan dapat digunakan untuk membuat kartu profil yang responsif. Component-based lebih 
 berfokus pada penggunaan class dan aturan CSS yang dibuat sendiri, sedangkan utility-first 
 mengandalkan class siap pakai. Dari tugas ini, saya dapat memahami bahwa pemilihan pendekatan 
