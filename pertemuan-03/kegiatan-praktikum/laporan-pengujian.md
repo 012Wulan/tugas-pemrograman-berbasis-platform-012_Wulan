@@ -4,10 +4,14 @@ Pada implementasi login JWT ini, token disimpan menggunakan `localStorage` agar 
 ## Bukti Screenshot
 ### 1. mahasiswa
 ![hasil pengujian](screenshot/KG-1.png)
+
 ![hasil pengujian](screenshot/KG-2.png)
+
 ![hasil pengujian](screenshot/KG-3.png)
 
  ### 2. admin
 ![hasil pengujian](screenshot/KG-4.png)
+
 ![hasil pengujian](screenshot/KG-5.png)
+
 ![hasil pengujian](screenshot/KG-6.png)
