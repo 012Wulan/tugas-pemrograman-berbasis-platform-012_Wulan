@@ -42,10 +42,12 @@ Karenanya, saya perlu memahami fungsi setiap class agar bisa mengatur tampilan h
 
 ### 5. Bukti Sreenshot
 ### A. Tampilan Laptop 
-
+![hasil pengujian](screenshot/TM2-LAPTOP.png)
 
 ### B. Tampilan Layar 360 PX
+![hasil pengujian](screenshot/TM2-360PX-1.png)
 
+![hasil pengujian](screenshot/TM2-360PX-2.png)
 
 ### Kesimpulan 
 Berdasarkan tugas yang telah dikerjakan, saya memahami bahwa Tailwind CSS dapat digunakan untuk 
